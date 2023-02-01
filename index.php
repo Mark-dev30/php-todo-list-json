@@ -20,19 +20,21 @@
 <body>
     <div id="app">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-6 text-center">
                     <h1>Todo List</h1>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-6">
                     <ul>
-                        <li></li>
+                        <li v-for="todo in todoList">
+                            {{ todo.language }}
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-6">
                     <input type="text" placeholder="Inserisci" class="form-control" v-model="language">
                     <button class="btn btn-primary">Inserisci</button>
