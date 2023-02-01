@@ -20,8 +20,8 @@
 <body>
     <div id="app">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-6 text-center">
+            <div class="row justify-content-center mt-5">
+                <div class="col-6 text-center text-white">
                     <h1>Todo List</h1>
                 </div>
             </div>
@@ -34,10 +34,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-6">
-                    <input type="text" placeholder="Inserisci" class="form-control" v-model="language">
-                    <button class="btn btn-primary" @click="addElement">Inserisci</button>
+            <div class="row justify-content-center mt-5">
+                <div class="col-6 d-flex">
+                    <input type="text" placeholder="Inserisci" class="form-control w-75" v-model="language">
+                    <button class="btn btn-primary ms-3" @click="addElement">Inserisci</button>
                 </div>
             </div>
         </div>
