@@ -1,18 +1,1 @@
-[
-    {
-        "language": "HTML",
-        "done": true
-    },
-    {
-        "language": "CSS",
-        "done": true
-    },
-    {
-        "language": "JAvascript",
-        "done": true
-    },
-    {
-        "language": "PHP",
-        "done": true
-    }
-]
+[{"language":"HTML","done":true},{"language":"CSS","done":true},{"language":"JAvascript","done":true},{"language":"PHP","done":true},{"language":"css","done":true}]

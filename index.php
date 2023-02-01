@@ -27,8 +27,8 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-6">
-                    <ul>
-                        <li v-for="todo in todoList">
+                    <ul class="list-group">
+                        <li v-for="todo in todoList" class="list-group-item">
                             {{ todo.language }}
                         </li>
                     </ul>
@@ -37,7 +37,7 @@
             <div class="row justify-content-center">
                 <div class="col-6">
                     <input type="text" placeholder="Inserisci" class="form-control" v-model="language">
-                    <button class="btn btn-primary">Inserisci</button>
+                    <button class="btn btn-primary" @click="addElement">Inserisci</button>
                 </div>
             </div>
         </div>
